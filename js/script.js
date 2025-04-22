@@ -9,7 +9,6 @@
 // Con return esci dal ciclo e scrivi true se è palindroma o false se non lo è
 // Usiamo un prompt per chiedere la parola all'utente e stampiamo il risultato con il log inserendo la parola dell'utente all'interno della funzione che verifica se la parola è palindroma
 
-
 function isPalindroma(word) {
   for (let i = 0; i < word.length / 2; i++) {
     if (word[i] !== word[word.length - 1 - i]) {
@@ -26,5 +25,4 @@ if (isPalindroma(userWord)) {
 } else {
   console.log("No, non è palindroma");
 }
-
 
